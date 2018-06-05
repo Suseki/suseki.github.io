@@ -4,9 +4,10 @@
 
     if (isExists('#rounded-countdown')) {
 
+        var remainingSec = new Date(2018, 6, 19);
         $('.countdown').ClassyCountdown({
             theme: "flat-colors-very-wide",
-            end: new Date(2018, 6, 19).getTime(),
+            end: remainingSec.getTime(),
             labelsOptions: {
                 lang: {
                     days: 'Дней',
