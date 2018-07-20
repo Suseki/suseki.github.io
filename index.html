@@ -1,150 +1,46 @@
-<!DOCTYPE HTML>
-<html lang="ru" prefix="og: http://ogp.me/ns#">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <title>Suseki Show</title>
-    <meta name="description" content="Образовательный проект с очень не типичными преподавателями по программированию.">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-
-    <!-- Open Graph data -->
-    <meta name="twitter:card" content="Смотри, любуйся и учись! Будь в тренде IT." />
-    <meta name="twitter:site" content="@Suseki_Show" />
-    <meta name="twitter:creator" content="@Suseki_Show" />
-    <meta property="og:title" content="Suseki Show">
-    <meta property="og:type" content="video.other">
-    <meta property="og:url" content="https://suseki.show/" />
-    <meta property="og:image" content="https://suseki.show/images/big_share.jpg" />
-    <meta property="vk:image"  content="https://suseki.show/images/vk_share.jpg" />
-
-    <link rel="cannonical" href="https://suseki.show/">
-
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
-
-    <!-- Stylesheets -->
-    <link href="common-css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="common-css/jquery.classycountdown.css"/>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Suseki Show | Сусеки Шоу - Неоднозначный канал про программирование</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-<div class="main-area">
-    <div class="container full-height position-static">
-
-        <section class="left-section full-height">
-
-            <a class="logo" href="#"><img src="images/logo.png" alt="Suseki Show"></a>
-
-            <div class="display-table">
-                <div class="display-table-cell">
-                    <div class="main-content">
-                        <h1 class="title"><b>Херачим!</b></h1>
-                        <p>
-                            Да, мы девочки и, да, мы можем сурово херачить код, и, да, мы научим вас этому искусству!
-                            Но надо подождать...
-                        </p>
-
-                    </div><!-- main-content -->
-                </div><!-- display-table-cell -->
-            </div><!-- display-table -->
-
-            <ul class="footer-icons">
-                <li>Подсматривай за нами:</li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UC2aCmxSYIGU9hxTEBUGfaHQ">
-                        <ion-icon name="logo-youtube"></ion-icon>
+<div class="container-fluid">
+    <div class="row pt-2 pb-2">
+        <div class="col-sm-2">
+            <div class="shadow-sm bg-white sticky-top p-2">
+                <img src="images/logo.svg" alt="Suseki Show" class="img-fluid">
+            </div>
+            <div class="sticky-top mt-2 p-2">
+                <h4>Скоро</h4>
+                <div class="nav flex-column nav-pills">
+                    <a class="nav-link disabled" href="#">
+                        Какой язык программирования выбрать?
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar" role="progressbar" style="width: 95%;"></div>
+                        </div>
                     </a>
-                </li>
-                <li>
-                    <a href="https://vk.com/suseki.show">
-                        <ion-icon name="logo-vk"></ion-icon>
+                    <a class="nav-link disabled" href="#">
+                        Немного про PHP
+
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar" role="progressbar" style="width: 5%;"></div>
+                        </div>
                     </a>
-                </li>
-                <li>
-                    <a href="https://fb.me/susekishow">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/Suseki_Show">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/suseki.show/">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                </li>
-            </ul>
-
-        </section><!-- left-section -->
-
-        <section class="right-section" style="background-image: url(images/countdown-1-1000x1000.jpg)">
-
-            <div class="display-table center-text">
-                <div class="display-table-cell">
-
-
-                    <div id="rounded-countdown">
-                        <div class="countdown"></div>
-                    </div>
-
-                </div><!-- display-table-cell -->
-            </div><!-- display-table -->
-
-        </section><!-- right-section -->
-
-    </div><!-- container -->
-</div><!-- main-area -->
-
-<!-- SCIPTS -->
-
-<script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
-<script src="common-js/jquery-3.1.1.min.js"></script>
-<script src="common-js/tether.min.js"></script>
-<script src="common-js/bootstrap.js"></script>
-<script src="common-js/jquery.classycountdown.js"></script>
-<script src="common-js/jquery.knob.js"></script>
-<script src="common-js/jquery.throttle.js"></script>
-<script src="common-js/scripts.js"></script>
-
-<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js"
-        data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script type="text/javascript">require(["mojo/signup-forms/Loader"], function (L) {
-    L.start({"baseUrl": "mc.us18.list-manage.com", "uuid": "1673121a376b587805fc15325", "lid": "d081fbb1fb"})
-})</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-28496970-10"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-28496970-10');
-</script>
-
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/ru_RU/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-     attribution="setup_tool"
-     page_id="203659413693366"
-     theme_color="#fa3c4c"
-     logged_in_greeting="Приветик! Чем помочь?"
-     logged_out_greeting="Приветик! Чем помочь?">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-10">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/-8C_bgQ0Tew?rel=0&amp;showinfo=0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </div>
-
 </body>
 </html>
